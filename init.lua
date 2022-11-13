@@ -1,0 +1,8 @@
+require "iwert.options"
+require "iwert.keymaps"
+require "iwert.plugins"
+require "iwert.cmp"
+require "iwert.lsp"
+require "iwert.telescope"
+require "iwert.treesitter"
+require "iwert.whichkey"
