@@ -41,6 +41,12 @@ end
       s = {"<cmd>Telescope live_grep<cr>", "Search string"},
     },
 
+    t = {
+      name = "Diagnostics",
+      d = {"<cmd>TroubleToggle document_diagnostics<cr>", "Document diagnostics"},
+      w = {"<cmd>TroubleToggle workspace_diagnostics<cr>", "Workspace diagnostics"},
+  },
+
     z = {
       name = "Packer",
       c = { "<cmd>PackerCompile<cr>", "Compile" },

@@ -73,3 +73,7 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 keymap("n", "ff", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "fs", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "fg", "<cmd>Telescope grep_string<cr>", opts)
+
+-- Trouble popup
+keymap("n", "td","<cmd>TroubleToggle document_diagnostics<cr>", opts)
+keymap("n", "tw","<cmd>TroubleToggle workspace_diagnostics<cr>", opts)
