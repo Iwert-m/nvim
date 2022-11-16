@@ -35,7 +35,11 @@ local mappings = {
     D = { "<Cmd>%bd|e#|bd#<Cr>", "Delete all buffers" },
   },
 
-  e = { "<cmd>Neotree<cr>", "Explorer" },
+  e = {
+    name = "Explorer",
+    b = { "<cmd>Neotree buffers<cr>", "Buffers" },
+    f = { "<cmd>Neotree<cr>", "Files" },
+  },
 
   f = {
     name = "Finder",

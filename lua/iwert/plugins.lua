@@ -73,6 +73,8 @@ return packer.startup(function(use)
     "folke/trouble.nvim",
     requires = "kyazdani42/nvim-web-devicons",
   }
+  use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
+  use "moll/vim-bbye"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
