@@ -33,6 +33,9 @@ local mappings = {
     name = "Buffer",
     c = { "<Cmd>bd!<Cr>", "Close current buffer" },
     D = { "<Cmd>%bd|e#|bd#<Cr>", "Delete all buffers" },
+    s = { "<Cmd>:split<Cr>", "New horizontal window split" },
+    v = { "<Cmd>:vsplit<Cr>", "New vertical window split" },
+    t = { "<Cmd>:Tabnew %<Cr>", "New Tab" },
   },
 
   e = {

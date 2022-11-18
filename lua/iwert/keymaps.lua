@@ -25,6 +25,11 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
+-- Window, tab and buffer keymaps
+keymap("n", "<C-t>", ":Tabnew<cr>", opts)
+keymap("n", "<C-s>", ":split<cr>", opts)
+keymap("n", "<C-v>", ":vsplit<cr>", opts)
+
 --keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Resize with arrows
