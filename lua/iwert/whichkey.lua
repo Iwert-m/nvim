@@ -35,7 +35,7 @@ local mappings = {
     D = { "<Cmd>%bd|e#|bd#<Cr>", "Delete all buffers" },
     s = { "<Cmd>:split<Cr>", "New horizontal window split" },
     v = { "<Cmd>:vsplit<Cr>", "New vertical window split" },
-    t = { "<Cmd>:Tabnew %<Cr>", "New Tab" },
+    t = { "<Cmd>:tabnew %<Cr>", "New Tab" },
   },
 
   e = {
@@ -50,6 +50,8 @@ local mappings = {
     g = { "<cmd>Telescope grep_string<cr>", "Search selected word" },
     s = { "<cmd>Telescope live_grep<cr>", "Search string" },
   },
+
+  L = {"<cmd>lua _LAZYGIT_TOGGLE()<cr>", "LazyGit Interface"},
 
   t = {
     name = "Diagnostics",
