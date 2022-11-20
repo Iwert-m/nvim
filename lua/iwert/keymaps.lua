@@ -29,8 +29,6 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<C-t>", ":tabnew<cr>", opts)
 keymap("n", "<C-s>", ":split<cr>", opts)
 keymap("n", "<C-v>", ":vsplit<cr>", opts)
-keymap("n", "<C-H>", ":tabp<cr>", opts)
-keymap("n", "<C-L>", ":tabn<cr>", opts)
 
 --keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
@@ -75,9 +73,6 @@ keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
--- LazyGit
-keymap("n", "<C-L>", "<cmd>lua _LAZYGIT_TOGGLE()<cr>", opts)
 
 -- Telescope searching
 keymap("n", "ff", "<cmd>Telescope find_files<cr>", opts)

@@ -63,6 +63,7 @@ return packer.startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   use "akinsho/toggleterm.nvim"
+  use "ahmedkhalf/project.nvim"
 
   -- Editor plugins
   use "folke/which-key.nvim"

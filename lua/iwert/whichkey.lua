@@ -51,7 +51,7 @@ local mappings = {
     s = { "<cmd>Telescope live_grep<cr>", "Search string" },
   },
 
-  L = {"<cmd>lua _LAZYGIT_TOGGLE()<cr>", "LazyGit Interface"},
+  G = {"<cmd>lua _LAZYGIT_TOGGLE()<cr>", "Git"},
 
   t = {
     name = "Diagnostics",
