@@ -175,7 +175,7 @@ local extended_schemas = extend(schemas, default_schemas)
 local opts = {
   settings = {
     json = {
-      schemas = schemas,
+      schemas = extended_schemas,
     },
   },
   setup = {

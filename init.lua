@@ -5,7 +5,7 @@ require "iwert.cmp"
 require "iwert.lsp"
 require "iwert.autopairs"
 require "iwert.telescope"
-require "iwert.dap".setup()
+require "iwert.dap"
 require "iwert.projects"
 require "iwert.treesitter"
 require "iwert.bufferline"

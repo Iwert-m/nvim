@@ -38,6 +38,14 @@ local mappings = {
     t = { "<Cmd>:tabnew %<Cr>", "New Tab" },
   },
 
+  d = {
+    name = "Debugger",
+    b = {"<cmd>lua require'dap'.toggle_breakpoint()<cr>", "Set breakpoint"},
+    c = {"<cmd>lua require'dap'.continue()<cr>", "Run debug session"},
+    s = {"<cmd>lua require'dap'.step_over()<cr>", "Step over"},
+    i = {"<cmd>lua require'dap'.step_into()<cr>", "Step into"},
+  },
+
   e = {
     name = "Explorer",
     b = { "<cmd>Neotree buffers<cr>", "Buffers" },
