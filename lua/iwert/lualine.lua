@@ -47,7 +47,7 @@ local filetype = {
 }
 lualine.setup{
 	options = {
-		disabled_filetypes = { "dashboard", "NvimTree", "Outline" },
+		disabled_filetypes = { "dashboard", "neo-tree", "Outline" },
 	},
   sections = {
 		lualine_a = { "branch", diff},
