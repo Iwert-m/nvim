@@ -27,7 +27,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "github.com/iwert-m/nvim"
+	return "github.com/Iwert-m/nvim"
 end
 
 dashboard.section.footer.val = footer()

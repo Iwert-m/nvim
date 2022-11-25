@@ -14,7 +14,7 @@ null_ls.setup({
 		-- Formatters
 		--		formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
 		formatting.stylua,
-		formatting.gofumt,
+		formatting.gofumpt,
 		formatting.yamlfmt,
     formatting.xmllint,
 		-- diagnostics.flake8
