@@ -1,6 +1,7 @@
 require "iwert.options"
 require "iwert.keymaps"
 require "iwert.plugins"
+require "iwert.alpha"
 require "iwert.cmp"
 require "iwert.lsp"
 require "iwert.autopairs"
