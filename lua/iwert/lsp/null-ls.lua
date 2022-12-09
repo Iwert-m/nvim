@@ -17,6 +17,7 @@ null_ls.setup({
 		formatting.gofumpt,
 		formatting.yamlfmt,
     formatting.xmllint,
+    formatting.prettier
 		-- diagnostics.flake8
 	},
 })
