@@ -73,6 +73,7 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim")
 	use("JoosepAlviste/nvim-ts-context-commentstring")
 	use("windwp/nvim-autopairs")
+	use("windwp/nvim-ts-autotag")
 	use("lewis6991/gitsigns.nvim")
 	use({
 		"folke/trouble.nvim",
