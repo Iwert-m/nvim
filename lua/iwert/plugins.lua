@@ -82,6 +82,7 @@ return packer.startup(function(use)
 	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
 	use("moll/vim-bbye")
 	use("lukas-reineke/indent-blankline.nvim")
+	use("famiu/bufdelete.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
