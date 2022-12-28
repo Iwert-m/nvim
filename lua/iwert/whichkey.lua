@@ -57,6 +57,7 @@ local mappings = {
 		f = { "<cmd>Telescope find_files<cr>", "Find files" },
 		g = { "<cmd>Telescope grep_string<cr>", "Search selected word" },
 		n = { "<cmd>Telescope notify<cr>", "Recent notifications" },
+		p = { "<cmd>Telescope persisted<cr>", "Recent sessions" },
 		s = { "<cmd>Telescope live_grep<cr>", "Search string" },
 	},
 

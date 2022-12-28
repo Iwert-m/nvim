@@ -67,6 +67,7 @@ return packer.startup(function(use)
 	use("ahmedkhalf/project.nvim")
 	use("lewis6991/impatient.nvim")
 	use("rcarriga/nvim-notify")
+	use("olimorris/persisted.nvim")
 
 	-- Editor plugins
 	use("folke/which-key.nvim")
