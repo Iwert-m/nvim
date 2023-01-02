@@ -31,12 +31,13 @@ local mappings = {
 
 	b = {
 		name = "Buffer",
-		c = { "<Cmd>bd!<Cr>", "Close current buffer" },
 		D = { "<Cmd>%bd|e#|bd#<Cr>", "Delete all buffers" },
 		s = { "<Cmd>:split<Cr>", "New horizontal window split" },
 		v = { "<Cmd>:vsplit<Cr>", "New vertical window split" },
 		t = { "<Cmd>:tabnew %<Cr>", "New Tab" },
 	},
+
+	c = { "<Cmd>Bdelete<Cr>", "Close current buffer" },
 
 	d = {
 		name = "Debugger",
@@ -108,9 +109,9 @@ end
 buffer_function()
 vim.api.nvim_create_autocmd("BufAdd", {
 	callback = function()
-    if vim.bo.filetype ~= "neo-tree" then
-		vim.schedule(buffer_function)
-    end
+		if vim.bo.filetype ~= "neo-tree" then
+			vim.schedule(buffer_function)
+		end
 	end,
 })
 
