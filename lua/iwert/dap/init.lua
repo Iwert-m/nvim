@@ -31,15 +31,14 @@ vim.fn.sign_define("DapBreakpointRejected", dap_breakpoint.rejected)
 
 require("mason-nvim-dap").setup({
 	automatic_setup = true,
-})
-
-require("mason-nvim-dap").setup_handlers({
-	function(source_name)
-		require("mason-nvim-dap.automatic_setup")(source_name)
-	end,
-	delve = function()
-		require("dap-go").setup()
-	end,
+	handlers = {
+		function(source_name)
+			require("mason-nvim-dap.automatic_setup")(source_name)
+		end,
+		delve = function()
+			require("dap-go").setup()
+		end,
+	},
 })
 
 require("telescope").load_extension("dap")
