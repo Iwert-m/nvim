@@ -84,6 +84,7 @@ return packer.startup(function(use)
 	use("moll/vim-bbye")
 	use("lukas-reineke/indent-blankline.nvim")
 	use("famiu/bufdelete.nvim")
+	use({ "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" })
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
