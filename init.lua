@@ -1,4 +1,5 @@
 require "iwert.options"
+require "iwert.colorscheme"
 require "iwert.keymaps"
 require "iwert.notify"
 require "iwert.plugins"

@@ -173,8 +173,12 @@ return packer.startup(function(use)
 	use("nvim-treesitter/nvim-treesitter-context")
 
 	-- Colorshemes
-	--use 'Yazeed1s/minimal.nvim'
 	use("rebelot/kanagawa.nvim")
+	use("Mofiqul/dracula.nvim")
+	use({
+		"ellisonleao/gruvbox.nvim",
+		tag = "1.0.0",
+	})
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
