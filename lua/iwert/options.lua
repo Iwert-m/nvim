@@ -35,6 +35,9 @@ local options = {
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
 }
 
+-- A builtin Lua module which byte-compiles and caches Lua files (speeds up load times).
+vim.loader.enable()
+
 vim.opt.shortmess:append "c"
 
 for k, v in pairs(options) do
