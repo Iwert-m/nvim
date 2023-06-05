@@ -99,7 +99,9 @@ local function buffer_function()
 			d = { "<cmd>Telescope lsp_definitions<CR>", "Find definition" },
 			i = { "<cmd>Telescope lsp_implementations", "Find implementation" },
 			l = { '<cmd>lua vim.diagnostic.open_float(0,{scope="line", border="rounded"})<CR>', "Line diagnostic" },
+			k = { "<cmd>lua vim.lsp.buf.hover()<CR>", "Hover over symbol" },
 			r = { "<cmd>Telescope lsp_references<CR>", "Find references" },
+			s = { "<cmd>lua vim.lsp.buf.signature_help()<CR>", "Show method signture" },
 			n = { "<cmd>lua vim.lsp.buf.rename()<CR>", "Rename under cursor" },
 		},
 	}
