@@ -1,14 +1,6 @@
 return {
-  recommended = {
-    ft = { "php", "blade" },
-    root = { "artisan" },
-  },
-
-  { import = "lazyvim.plugins.extras.lang.php" },
-
   {
     "adalessa/laravel.nvim",
-    optional = true,
     dependencies = {
       "MunifTanjim/nui.nvim",
       "nvim-lua/plenary.nvim",
@@ -154,13 +146,11 @@ return {
 
   {
     "ricardoramirezr/blade-nav.nvim",
-    optional = true,
     ft = { "blade", "php" },
   },
 
   {
     "saghen/blink.cmp",
-    optional = true,
     dependencies = { "adalessa/laravel.nvim", "ricardoramirezr/blade-nav.nvim", "saghen/blink.compat" },
     opts = {
       sources = {
@@ -182,7 +172,6 @@ return {
 
   {
     "stevearc/conform.nvim",
-    optional = true,
     opts = {
       formatters_by_ft = {
         blade = { "blade-formatter", "rustywind" },
